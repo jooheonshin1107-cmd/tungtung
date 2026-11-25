@@ -1,0 +1,17 @@
+{
+  "name": "relay-proxy",
+  "version": "1.0.0",
+  "description": "A small web proxy that fetches pages and rewrites them to load through your server",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "cheerio": "1.0.0",
+    "tough-cookie": "5.1.2"
+  }
+}
